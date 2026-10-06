@@ -1,17 +1,21 @@
-# Repo with all datasets used in the numerical experiments section of "*Don't Get Your Kroneckers in a Twist: Gaussian Processes on High-Dimensional Incomplete Grids*"
+# Repository with all datasets used in the numerical experiments section of *"Don't Get Your Kroneckers in a Twist: Gaussian Processes on High-Dimensional Incomplete Grids"*
 
 ## Overall data structure
 
 ### Exact GPR tests
 
-These make use of a generic table.
+These make use of a space separated generic table.
 The first line is a header line that is skipped.
-Then the points come as x1 x2 ... xD y, all space separated.
+Then the points come in arbitrary order as: 
+
+x1 x2 ... xD y
 
 ### CUTS-GPR tests
 
 The first line is the reference value for all modes (0.0) and the energy of this reference structure.
-All following lines are structured as Displaced dimensions : Displacements along each dimension : Energy
+All following lines are structured as:
+
+Displaced dimensions : Displacements along each dimension : Energy
 
 ## Data generation
 
@@ -19,9 +23,12 @@ All following lines are structured as Displaced dimensions : Displacements along
 
 All PES datasets are generated using MIDASCPP with XTB.
 These all need a .mmol file, all of which can be found in the Molecules folder.
-Example calculation with midas input file and necessary interface files can be found in example.
+Example calculation with midas input file and necessary interface files can be found in example.a
+
 Links:
+
 MIDASCPP: https://midascpp.gitlab.io/
+
 XTB: https://xtb-docs.readthedocs.io/en/latest/
 
 ### 6.2) Exact baseline comparison
@@ -54,8 +61,10 @@ Molecules included:
   - Thioacetone
   - Vinylformamide
 
-### End-to-end Scaling in High Dimension
+### 6.3) End-to-end Scaling in High Dimension
 
-Synthetic data
+Synthetic data generated using the included python script.
+Generated a test and training set for a range of dimensions from 10-500.
+Note a few of the largest files had to be compressed.
 
 More details will follow
