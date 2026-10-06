@@ -66,5 +66,3 @@ Molecules included:
 Synthetic data generated using the included python script.
 Generated a test and training set for a range of dimensions from 10-500.
 Note a few of the largest files had to be compressed.
-
-More details will follow
