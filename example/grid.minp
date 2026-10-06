@@ -1,0 +1,29 @@
+#0 MidasInput
+#1 general
+#2 IoLevel
+2
+
+#1 System
+#2 MoleculeFile
+MIDAS
+Butadiene.mmol
+
+#1 SinglePoint
+#2 Name
+sp
+#2 Type
+SP_GENERIC
+#2 Inputcreatorscript
+InputCreatorScript.sh
+#2 Runscript
+RunScript.sh
+
+#1 PES
+#2 multilevelpes
+sp 3
+#2 StaticInfo
+3         // MC Level
+10 10 10  // Grid points in each MC level
+1 1 1     // Fractioning
+
+#0 MidasInputEnd
