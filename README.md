@@ -33,7 +33,7 @@ XTB: https://xtb-docs.readthedocs.io/en/latest/
 
 ### 6.2) Exact baseline comparison
 
-Set of 8, 2 mode coupled potential energy surfaces with variying dimensionality
+A set of eight two-mode-coupled potential energy surfaces with varying dimensionality
 
 Molecules included
   - Water (3D)
@@ -47,7 +47,7 @@ Molecules included
 
 ### 6.4) Application to PES data
 
-Set of 10, 24 dimensional, 3 mode coupled, potential energy surfaces.
+A set of ten 24-dimensional, three-mode-coupled potential energy surfaces.
 
 Molecules included:
   - Butadiene
